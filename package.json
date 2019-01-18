@@ -1,0 +1,23 @@
+{
+  "name": "building-blocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/craftedcraft/building-blocks.git",
+  "author": "RMH <riki@craftsmoothie.co.nz>",
+  "license": "MIT",
+
+"scripts": {
+  "test": "jest",
+  "dev": "nodemon",
+  "start": "node"
+},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "node": "^11.6.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
