@@ -1,5 +1,3 @@
-test('Initial Test', () => {
+test('Initial test connection with Jest is working', function () {
   expect(true).toBe(true)
 })
-
-// console.log('Initial test connection working')
