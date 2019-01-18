@@ -5,12 +5,11 @@
   "repository": "https://github.com/craftedcraft/building-blocks.git",
   "author": "RMH <riki@craftsmoothie.co.nz>",
   "license": "MIT",
-
-"scripts": {
-  "test": "jest",
-  "dev": "nodemon",
-  "start": "node"
-},
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon",
+    "start": "node"
+  },
   "devDependencies": {
     "jest": "^23.6.0",
     "node": "^11.6.0",
@@ -18,6 +17,8 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
   }
 }
